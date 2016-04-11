@@ -16,6 +16,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 
+gem 'postmark-rails'
 gem "letter_opener", group: :development
 
 group :development, :test do

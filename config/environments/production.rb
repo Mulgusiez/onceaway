@@ -1,4 +1,7 @@
 Rails.application.configure do
+  config.action_mailer.delivery_method = :postmark
+  config.action_mailer.postmark_settings = { :api_token => "84de05fb-f92e-4946-a0ea-06d3c6955b6f" }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
