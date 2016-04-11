@@ -6,8 +6,8 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 // Backgrounds
@@ -16,6 +16,9 @@
 }
 .bg-grey {
   background: #aeaeae;
+}
+.bg-light-grey {
+  background: #F7F7F7;
 }
 .bg-blue {
   background: #00a3e1;

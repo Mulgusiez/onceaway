@@ -1,2 +1,233 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- logo -->
+<div>
+  <a class="logo-brand page-scroll hidden-xs" href="#page-top">
+    <%= image_tag("logo.png", size: "50")%>
+  </a>
+</div>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <h2 class="intro-lead-in">Quelle est votre rêve le plus fou ?</h2>
+            <h1 class="intro-heading">Votre rêve deviens réalité</h1>
+            <!-- <a href="#destinations" class="page-scroll btn btn-xl">Voir les destinations</a> -->
+            <a href="#destinations" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
+
+<!-- Destinations Section -->
+<section id="destinations">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Destinations</h2>
+                <h3 class="section-subheading text-muted">Quel lieu insolite rêvez vous découvrir ?</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-md-offset-1">
+                <h4 class="destination-heading">Amerique Latine</h4>
+                <ul class="text-muted destination-list">
+                  <li>Chili</li>
+                  <li>Argentine</li>
+                  <li>Bresil</li>
+                  <li>Perou</li>
+                  <li>Equateur</li>
+                  <li>Uruguay</li>
+                  <li>Bolivie</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4 class="destination-heading">Amerique Central</h4>
+                <ul class="text-muted destination-list">
+                  <li>Cuba</li>
+                  <li>Costa Rica</li>
+                  <li>Nicaragua</li>
+                  <li>Panama</li>
+                  <li>Mexique</li>
+                  <li>Martinique</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4 class="destination-heading">Afrique</h4>
+                <ul class="text-muted destination-list">
+                  <li>Ethiopie</li>
+                  <li>Botswana</li>
+                  <li>Zambie</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4 class="destination-heading">Océanie</h4>
+                <ul class="text-muted destination-list">
+                  <li>Nouvelle Zelande</li>
+                  <li>Polynesie</li>
+                  <li>Australie</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4 class="destination-heading">Asie du Sud Est</h4>
+                <ul class="text-muted destination-list">
+                  <li>Vietnam</li>
+                  <li>Birmanie</li>
+                  <li>Laos</li>
+                  <li>Cambodge</li>
+                  <li>Thailande</li>
+                  <li>Inde</li>
+                  <li>Indonesie</li>
+                  <li>Japon</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Inspiration Section -->
+<section id="inspiration" class="bg-light-grey">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Inspiration</h2>
+                <h3 class="section-subheading text-muted">Mes anecdotes de voyages</h3>
+            </div>
+        </div>
+        <!-- Inspiration 1 -->
+        <div class="row">
+          <div class="col-md-6 inspiration-item inspiration-one"></div>
+          <div class="col-md-6 inspiration-comment">
+            <h4>Emotion/sentiment</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          </div>
+        </div>
+        <!-- Inspiration 2 -->
+        <div class="row">
+          <div class="col-md-6 inspiration-item inspiration-two visible-sm visible-xs"></div>
+          <div class="col-md-6 inspiration-comment">
+            <h4>Emotion/sentiment</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          </div>
+          <div class="col-md-6 inspiration-item inspiration-two hidden-sm hidden-xs"></div>
+        </div>
+        <!-- Inspiration 3 -->
+        <div class="row">
+          <div class="col-md-6 inspiration-item inspiration-three"></div>
+          <div class="col-md-6 inspiration-comment">
+            <h4>Emotion/sentiment</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          </div>
+        </div>
+        <!-- Inspiration 4 -->
+        <div class="row">
+          <div class="col-md-6 inspiration-item inspiration-four visible-sm visible-xs"></div>
+          <div class="col-md-6 inspiration-comment">
+            <h4>Emotion/sentiment</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          </div>
+          <div class="col-md-6 inspiration-item inspiration-four hidden-sm hidden-xs"></div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Marie</h2>
+              <h3 class="section-subheading text-muted">Créatrice de voyage</h3>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-lg-4 col-lg-offset-4">
+          <div class="about-image">
+            <%= image_tag("marie.jpg", class: "avatar-bordered img-responsive", alt: "Marie Mulliez") %>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-lg-4 col-lg-offset-4 text-center">
+          <div class="about-panel">
+            <div class="about-heading">
+              <h4 class="subheading">Mon experience</h4>
+            </div>
+            <div class="about-body">
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Comment Section -->
+<section id="avis" class="bg-light-grey">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Les avis</h2>
+              <h3 class="section-subheading text-muted">Quelques avis de voyageurs</h3>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-2">
+          <div class="testimonials">
+            <p class="quote text-muted">"Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met."</p>
+            <h4 class="author">Auteur</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-4">
+          <div class="testimonials">
+            <p class="quote text-muted">"Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met."</p>
+            <h4 class="author">Auteur</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-2">
+          <div class="testimonials">
+            <p class="quote text-muted">"Denim you probably haven't heard of. Lorem ipsum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met."</p>
+            <h4 class="author">Auteur</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Contactez moi</h2>
+              <h3 class="section-subheading text-muted">Votre premier pas vers le voyage</h3>
+          </div>
+      </div>
+      <div class="row">
+        <%= simple_form_for :new_request, url: send_request_pages_path, method: :post do |form| %>
+          <div class="col-md-6">
+            <%= form.input :name, label: false, placeholder: "Nom" %>
+            <%= form.input :email, label: false, placeholder: "Email" %>
+          </div>
+          <div class="col-md-6">
+            <%= form.input :phone_number, label: false, placeholder: "Télephone" %>
+            <%= form.input :location, label: false, placeholder: "Lieu du voyage" %>
+          </div>
+          <div class="col-md-12">
+          <%= form.input :description, as: :text, label: false, placeholder: 'Quel voyage desirez vous ?'%>
+          </div>
+          <div class="col-md-12 text-center">
+          <%= form.submit 'Envoyer', class: 'btn btn-xl' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+</section>

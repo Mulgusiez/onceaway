@@ -2,3 +2,13 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+body h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+body h1, h2, h3, h4, h5, h6, p, li, ul, a {
+  // font-family: "Burin sans at";
+  font-family: 'Poiret One', cursive;
+  // font-family: 'Dosis', sans-serif;
+}

@@ -1,0 +1,21 @@
+.navbar-default {
+  z-index: 2;
+  background-color: rgba(255,255,255, 100);
+  padding: 10px 0;
+  border: none;
+  .navbar-nav > li > a {
+    color: black;
+  }
+  // .navbar-brand {
+  //   color: white;
+  // }
+}
+
+.logo-brand img {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  height: 100px;
+  width: 100px;
+  z-index: 3;
+}
