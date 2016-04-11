@@ -14,7 +14,7 @@ class RequestMailer < ApplicationMailer
     @description = hash[:new_request][:description]
 
     mail(
-      to: 'mulliez.augustin@gmail.com',
+      to: 'marie@onceaway.com',
       subject: 'Nouvelle demande de voyage',
       from: 'marie@onceaway.com'
     )

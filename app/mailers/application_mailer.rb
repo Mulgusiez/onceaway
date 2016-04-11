@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "replace by client email"
+  default from: "marie@onceaway.com"
   layout 'mailer'
 end
