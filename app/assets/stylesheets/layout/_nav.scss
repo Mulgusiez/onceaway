@@ -1,14 +1,11 @@
 .navbar-default {
   z-index: 2;
   background-color: rgba(255,255,255, 100);
-  padding: 10px 0;
+  // padding: 5px 0;
   border: none;
   .navbar-nav > li > a {
     color: $brand-color;
   }
-  // .navbar-brand {
-  //   color: white;
-  // }
 }
 
 .logo-brand img {
@@ -30,7 +27,7 @@
 }
 
 .social-logo  a {
-  // margin: 10px;
+  // margin-top: 5px;
   display: block;
   background-color: #222222;
   height: 40px;
