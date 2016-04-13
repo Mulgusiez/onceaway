@@ -8,6 +8,13 @@
   }
 }
 
+.active {
+  background-color: transparent;
+  .navbar-nav > li > a {
+    color: white;
+  }
+}
+
 .logo-brand img {
   position: fixed;
   top: 15px;
