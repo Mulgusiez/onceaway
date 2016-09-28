@@ -15,11 +15,12 @@ header {
 
 .intro-lead-in {
   color: white;
-  font-style: italic;
-  font-size: 40px;
+  // font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
   line-height: 40px;
   margin-bottom: 35px;
-  text-shadow: 2px 2px 4px #000000;
+  // text-shadow: 2px 2px 4px #000000;
 }
 
 .intro-heading {
@@ -51,9 +52,9 @@ header {
 
 #copy-frank {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: 5px;
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 8px;
 }
